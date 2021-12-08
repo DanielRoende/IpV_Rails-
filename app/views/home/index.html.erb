@@ -1,4 +1,10 @@
 <div class="max-w-lg mx-auto mt-16 text-center">
-  <h1 class="mb-4 text-3xl font-black">Welcome to Kickoff Tailwind!</h1>
-  <p class="text-lg leading-snug">Use this starting point as a way to quickly set up a new project by generating files, installing gems, and more.</p>
+  <h1 class="mb-4 text-3xl font-black">Welcome to IpVision!</h1>
+  <p class="text-lg leading-snug">Create a user or sign in to an existing one.</p>
+
+
+  <% if user_signed_in? %>
+
+  <%= link_to "Update Profile", new_upload_information_path, class: "btn btn-default mb-2 lg:mr-2 lg:mb-0 block" %>
+  <% end %>
 </div>

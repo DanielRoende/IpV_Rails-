@@ -1,0 +1,39 @@
+<%= form_with(model: upload_information) do |form| %>
+  <% if upload_information.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(upload_information.errors.count, "error") %> prohibited this upload_information from being saved:</h2>
+
+      <ul>
+        <% upload_information.errors.each do |error| %>
+          <li><%= error.full_message %></li>
+        <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="field">
+    <%= form.label :fornavn %>
+    <%= form.text_field :fornavn %>
+  </div>
+
+  <div class="field">
+    <%= form.label :efternavn %>
+    <%= form.text_field :efternavn %>
+  </div>
+
+  <div class="field">
+    <%= form.label :postnummer %>
+    <%= form.text_field :postnummer %>
+  </div>
+
+  <div class="field">
+    <%= form.label :addresse %>
+    <%= form.text_field :addresse %>
+  </div>
+
+  
+
+  <div class="actions">
+    <%= form.submit %>
+  </div>
+<% end %>

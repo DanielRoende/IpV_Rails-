@@ -1,0 +1,26 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Fornavn:</strong>
+  <%= @upload_information.fornavn %>
+</p>
+
+<p>
+  <strong>Efternavn:</strong>
+  <%= @upload_information.efternavn %>
+</p>
+
+<p>
+  <strong>Postnummer:</strong>
+  <%= @upload_information.postnummer %>
+</p>
+
+<p>
+  <strong>Addresse:</strong>
+  <%= @upload_information.addresse %>
+</p>
+
+
+
+<%= link_to 'Edit', edit_upload_information_path(@upload_information) %> |
+<%= link_to 'Back', upload_informations_path %>

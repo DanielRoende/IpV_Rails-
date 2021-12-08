@@ -58,3 +58,9 @@ gem 'devise', '~> 4.7', '>= 4.7.3'
 gem 'friendly_id', '~> 5.4', '>= 5.4.1'
 gem 'sidekiq', '~> 6.1', '>= 6.1.2'
 gem 'name_of_person', '~> 1.1', '>= 1.1.1'
+
+gem "pagy", "~> 5.6"
+
+gem "pry-rails", "~> 0.3.9"
+
+gem "multi_xml", "~> 0.6.0"
