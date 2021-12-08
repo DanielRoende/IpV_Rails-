@@ -3,22 +3,8 @@
 This README would normally document whatever steps are necessary to get the
 application up and running.
 
-Things you may want to cover:
 
-* Ruby version
+Mangler:
+Respec - Det er lidt bøvlet (for mig i hvert fald) at add til et  eksisterende projekt 
 
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+Docker (har ikke arbejdet nok med docker) - men med et par timer mere kunne jeg nok finde ud af det 
