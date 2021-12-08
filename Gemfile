@@ -64,3 +64,5 @@ gem "pagy", "~> 5.6"
 gem "pry-rails", "~> 0.3.9"
 
 gem "multi_xml", "~> 0.6.0"
+
+gem "respec", "~> 0.9.1"

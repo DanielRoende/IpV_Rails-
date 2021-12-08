@@ -71,7 +71,7 @@ class UploadInformationsController < ApplicationController
   private
   # Use callbacks to share common setup or constraints between actions.
   def set_upload_information
-    @upload_information = UploadInformation.find_by(params[:id])
+    @upload_information = UploadInformation.find_by(id: params[:id])
   end
 
   # Only allow a list of trusted parameters through.
